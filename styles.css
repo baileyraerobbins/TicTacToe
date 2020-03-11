@@ -1,0 +1,77 @@
+body {
+    cursor: pointer;
+}
+
+#board {
+    padding: 3em;
+    text-align: center;
+}
+
+.row {
+    clear: both;
+    margin: auto;
+    width: 302px;
+}
+
+.topLeft {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+}
+
+.topMiddle {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+}
+
+.topRight {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-bottom: black solid 1px;
+}
+
+.centerLeft {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+}
+
+.centerMiddle {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+}
+
+.centerRight {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-bottom: black solid 1px;
+}
+.bottomLeft {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-right: black solid 1px;
+}
+.bottomMiddle {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-right: black solid 1px;
+}
+.bottomRight {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
