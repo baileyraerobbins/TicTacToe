@@ -1,7 +1,3 @@
-body {
-    cursor: pointer;
-}
-
 #board {
     padding: 3em;
     text-align: center;
@@ -13,65 +9,27 @@ body {
     width: 302px;
 }
 
-.topLeft {
+.row > div {
     float: left;
     height: 100px;
     width: 100px;
-    border-right: black solid 1px;
-    border-bottom: black solid 1px;
+    cursor: pointer;
+    font-size: 50px;
+    line-height: 100px;
 }
 
-.topMiddle {
-    float: left;
-    height: 100px;
-    width: 100px;
-    border-right: black solid 1px;
-    border-bottom: black solid 1px;
+.top {
+    border-bottom: 1px solid black;
 }
 
-.topRight {
-    float: left;
-    height: 100px;
-    width: 100px;
-    border-bottom: black solid 1px;
+.bottom {
+    border-top: 1px solid black;
 }
 
-.centerLeft {
-    float: left;
-    height: 100px;
-    width: 100px;
-    border-right: black solid 1px;
-    border-bottom: black solid 1px;
+.left {
+    border-right: 1px solid black;
 }
 
-.centerMiddle {
-    float: left;
-    height: 100px;
-    width: 100px;
-    border-right: black solid 1px;
-    border-bottom: black solid 1px;
-}
-
-.centerRight {
-    float: left;
-    height: 100px;
-    width: 100px;
-    border-bottom: black solid 1px;
-}
-.bottomLeft {
-    float: left;
-    height: 100px;
-    width: 100px;
-    border-right: black solid 1px;
-}
-.bottomMiddle {
-    float: left;
-    height: 100px;
-    width: 100px;
-    border-right: black solid 1px;
-}
-.bottomRight {
-    float: left;
-    height: 100px;
-    width: 100px;
+.right {
+    border-left: 1px solid black;
 }
