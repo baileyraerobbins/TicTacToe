@@ -1,7 +1,27 @@
+body {
+    font-family: 'Bangers', cursive;
+    background-color: #98FB98;
+    color: black;
+}
+
+
+h1 {
+    font-size: 42px;
+}
+
+.gameRestart {
+    background-color: #FF1493;
+    padding: 2%;
+    margin-top: 15%;
+    width: 302px;
+
+}
+
 #board {
     padding: 3em;
     text-align: center;
 }
+
 
 .row {
     clear: both;
@@ -16,8 +36,12 @@
     cursor: pointer;
     font-size: 50px;
     line-height: 100px;
+    
 }
 
+.row > div:hover {
+    background-color: #FF1493;
+}
 .top {
     border-bottom: 1px solid black;
 }
